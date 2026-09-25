@@ -72,7 +72,7 @@ export default function HealthNutrition() {
   //    Fix D: KPI stays constant regardless of selectedFY.
   const ayushAllTimeData = getAyushThrData(rawAyush, { selectedFY: null, selectedRegion, selectedDistrict }, districts)
   const activeAyushData = ayushAllTimeData.filter(d => {
-    if (selectedDistrict) return d.name === selectedDistrict
+    if (selectedDistrict) return d.name.toLowerCase() === selectedDistrict.toLowerCase()
     if (selectedRegion) return d.inRegion
     return true
   })

@@ -1,0 +1,117 @@
+[
+  {
+    "Region": "Ambala",
+    "District": "Ambala",
+    "District_Code": 58
+  },
+  {
+    "Region": "Ambala",
+    "District": "Kurukshetra",
+    "District_Code": 68
+  },
+  {
+    "Region": "Ambala",
+    "District": "Panchkula",
+    "District_Code": 70
+  },
+  {
+    "Region": "Ambala",
+    "District": "Yamunanagar",
+    "District_Code": 76
+  },
+  {
+    "Region": "Karnal",
+    "District": "Karnal",
+    "District_Code": 67
+  },
+  {
+    "Region": "Karnal",
+    "District": "Panipat",
+    "District_Code": 71
+  },
+  {
+    "Region": "Karnal",
+    "District": "Kaithal",
+    "District_Code": 66
+  },
+  {
+    "Region": "Rohtak",
+    "District": "Rohtak",
+    "District_Code": 73
+  },
+  {
+    "Region": "Rohtak",
+    "District": "Jhajjar",
+    "District_Code": 64
+  },
+  {
+    "Region": "Rohtak",
+    "District": "Sonipat",
+    "District_Code": 75
+  },
+  {
+    "Region": "Rohtak",
+    "District": "Bhiwani",
+    "District_Code": 59
+  },
+  {
+    "Region": "Rohtak",
+    "District": "Charkhi Dadri",
+    "District_Code": 701
+  },
+  {
+    "Region": "Hisar",
+    "District": "Hisar",
+    "District_Code": 63
+  },
+  {
+    "Region": "Hisar",
+    "District": "Hansi",
+    "District_Code": 396
+  },
+  {
+    "Region": "Hisar",
+    "District": "Fatehabad",
+    "District_Code": 61
+  },
+  {
+    "Region": "Hisar",
+    "District": "Sirsa",
+    "District_Code": 74
+  },
+  {
+    "Region": "Hisar",
+    "District": "Jind",
+    "District_Code": 65
+  },
+  {
+    "Region": "Gurugram",
+    "District": "Gurugram",
+    "District_Code": 62
+  },
+  {
+    "Region": "Gurugram",
+    "District": "Rewari",
+    "District_Code": 72
+  },
+  {
+    "Region": "Gurugram",
+    "District": "Mahendragarh",
+    "District_Code": 69
+  },
+  {
+    "Region": "Faridabad",
+    "District": "Faridabad",
+    "District_Code": 60
+  },
+  {
+    "Region": "Faridabad",
+    "District": "Palwal",
+    "District_Code": 619
+  },
+  {
+    "Region": "Faridabad",
+    "District": "Nuh",
+    "District_Code": 604
+  }
+]

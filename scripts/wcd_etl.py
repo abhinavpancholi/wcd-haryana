@@ -39,7 +39,7 @@ from collections import defaultdict
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 EXCEL_PATH = PROJECT_ROOT / "WCD_templates.xlsx"
-REGION_MAP_PATH = PROJECT_ROOT / "gujarat_region_mapping.xlsx"
+REGION_MAP_PATH = PROJECT_ROOT / "haryana_region_mapping.json"
 OUT_DIR = PROJECT_ROOT / "public" / "data"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -195,14 +195,13 @@ for row in raw_12:
             "no_of_aw_rural": clean_int(row.get("L No_of_AW_rural")),
         }
 
-print("Loading gujarat_region_mapping.xlsx...")
-wb_region = openpyxl.load_workbook(str(REGION_MAP_PATH), read_only=True, data_only=True)
-ws_region = wb_region.active
-region_rows = list(ws_region.iter_rows(values_only=True))
+print("Loading haryana_region_mapping.json...")
+with open(str(REGION_MAP_PATH), "r", encoding="utf-8") as f_reg:
+    region_rows = json.load(f_reg)
 region_dict = {}
-for r in region_rows[1:]:
-    if r[2] is not None:
-        region_dict[str(r[2]).strip()] = clean_str(r[0])
+for r in region_rows:
+    if r.get("District_Code") is not None:
+        region_dict[str(r["District_Code"]).strip()] = clean_str(r.get("Region"))
 
 districts_list = sorted(districts_map.values(), key=lambda d: d["district_name"] or "")
 

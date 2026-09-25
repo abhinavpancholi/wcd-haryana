@@ -1,332 +1,232 @@
 [
   {
-    "district_name": "AHMADABAD",
-    "district_code": "438",
-    "no_of_taluka": 9,
-    "no_of_ward": 92,
-    "no_of_village_ward": 446,
-    "no_of_aw_urban": 2122,
-    "no_of_aw_rural": 1500,
-    "region": "North Gujarat"
-  },
-  {
-    "district_name": "AMRELI",
-    "district_code": "439",
-    "no_of_taluka": 11,
-    "no_of_ward": 65,
-    "no_of_village_ward": 555,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 1616,
-    "region": "Coastal Saurashtra"
-  },
-  {
-    "district_name": "ANAND",
-    "district_code": "440",
+    "district_name": "Ambala",
+    "district_code": 58,
     "no_of_taluka": 8,
     "no_of_ward": 84,
     "no_of_village_ward": 342,
     "no_of_aw_urban": 0,
     "no_of_aw_rural": 1993,
-    "region": "Central Gujarat"
+    "region": "Ambala"
   },
   {
-    "district_name": "ARVALLI",
-    "district_code": "672",
-    "no_of_taluka": 6,
-    "no_of_ward": 15,
-    "no_of_village_ward": 596,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 1450,
-    "region": "North Gujarat"
-  },
-  {
-    "district_name": "BANAS KANTHA",
-    "district_code": "441",
-    "no_of_taluka": 14,
-    "no_of_ward": 46,
-    "no_of_village_ward": 1151,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 3365,
-    "region": "North Gujarat"
-  },
-  {
-    "district_name": "BHARUCH",
-    "district_code": "442",
-    "no_of_taluka": 9,
-    "no_of_ward": 34,
-    "no_of_village_ward": 623,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 1374,
-    "region": "South Gujarat"
-  },
-  {
-    "district_name": "BHAVNAGAR",
-    "district_code": "443",
-    "no_of_taluka": 11,
-    "no_of_ward": 60,
-    "no_of_village_ward": 600,
-    "no_of_aw_urban": 316,
-    "no_of_aw_rural": 1591,
-    "region": "Coastal Saurashtra"
-  },
-  {
-    "district_name": "BOTAD",
-    "district_code": "676",
-    "no_of_taluka": 4,
-    "no_of_ward": 24,
-    "no_of_village_ward": 175,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 569,
-    "region": "Saurashtra"
-  },
-  {
-    "district_name": "CHHOTAUDEPUR",
-    "district_code": "668",
-    "no_of_taluka": 6,
-    "no_of_ward": 7,
-    "no_of_village_ward": 701,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 1182,
-    "region": "Central Gujarat"
-  },
-  {
-    "district_name": "DAHOD",
-    "district_code": "445",
-    "no_of_taluka": 8,
-    "no_of_ward": 21,
-    "no_of_village_ward": 677,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 3056,
-    "region": "Central Gujarat"
-  },
-  {
-    "district_name": "DANG",
-    "district_code": "444",
-    "no_of_taluka": 3,
-    "no_of_ward": 0,
-    "no_of_village_ward": 309,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 441,
-    "region": "South Gujarat"
-  },
-  {
-    "district_name": "DEVBHUMI DWARKA",
-    "district_code": "674",
-    "no_of_taluka": 4,
-    "no_of_ward": 41,
-    "no_of_village_ward": 229,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 691,
-    "region": "Coastal Saurashtra"
-  },
-  {
-    "district_name": "GANDHINAGAR",
-    "district_code": "446",
-    "no_of_taluka": 4,
-    "no_of_ward": 41,
-    "no_of_village_ward": 229,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 1068,
-    "region": "North Gujarat"
-  },
-  {
-    "district_name": "GIR SOMNATH",
-    "district_code": "675",
-    "no_of_taluka": 6,
-    "no_of_ward": 38,
-    "no_of_village_ward": 332,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 1166,
-    "region": "Coastal Saurashtra"
-  },
-  {
-    "district_name": "JAMNAGAR",
-    "district_code": "447",
-    "no_of_taluka": 7,
-    "no_of_ward": 44,
-    "no_of_village_ward": 386,
-    "no_of_aw_urban": 309,
-    "no_of_aw_rural": 888,
-    "region": "Saurashtra"
-  },
-  {
-    "district_name": "JUNAGADH",
-    "district_code": "448",
-    "no_of_taluka": 10,
-    "no_of_ward": 64,
-    "no_of_village_ward": 466,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 1428,
-    "region": "Coastal Saurashtra"
-  },
-  {
-    "district_name": "KACHCHH",
-    "district_code": "449",
-    "no_of_taluka": 10,
-    "no_of_ward": 60,
-    "no_of_village_ward": 764,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 2116,
-    "region": "Kutch"
-  },
-  {
-    "district_name": "KHEDA",
-    "district_code": "450",
-    "no_of_taluka": 10,
-    "no_of_ward": 71,
-    "no_of_village_ward": 479,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 1979,
-    "region": "Central Gujarat"
-  },
-  {
-    "district_name": "MAHESANA",
-    "district_code": "451",
-    "no_of_taluka": 10,
-    "no_of_ward": 54,
-    "no_of_village_ward": 568,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 1920,
-    "region": "North Gujarat"
-  },
-  {
-    "district_name": "MAHISAGAR",
-    "district_code": "669",
-    "no_of_taluka": 6,
-    "no_of_ward": 20,
-    "no_of_village_ward": 606,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 1316,
-    "region": "Central Gujarat"
-  },
-  {
-    "district_name": "MORBI",
-    "district_code": "673",
+    "district_name": "Bhiwani",
+    "district_code": 59,
     "no_of_taluka": 5,
     "no_of_ward": 30,
     "no_of_village_ward": 328,
     "no_of_aw_urban": 0,
     "no_of_aw_rural": 761,
-    "region": "Saurashtra"
+    "region": "Rohtak"
   },
   {
-    "district_name": "NARMADA",
-    "district_code": "452",
+    "district_name": "Charkhi Dadri",
+    "district_code": 701,
+    "no_of_taluka": 9,
+    "no_of_ward": 34,
+    "no_of_village_ward": 623,
+    "no_of_aw_urban": 0,
+    "no_of_aw_rural": 1374,
+    "region": "Rohtak"
+  },
+  {
+    "district_name": "Faridabad",
+    "district_code": 60,
+    "no_of_taluka": 6,
+    "no_of_ward": 20,
+    "no_of_village_ward": 606,
+    "no_of_aw_urban": 0,
+    "no_of_aw_rural": 1316,
+    "region": "Faridabad"
+  },
+  {
+    "district_name": "Fatehabad",
+    "district_code": 61,
+    "no_of_taluka": 10,
+    "no_of_ward": 60,
+    "no_of_village_ward": 764,
+    "no_of_aw_urban": 0,
+    "no_of_aw_rural": 2116,
+    "region": "Hisar"
+  },
+  {
+    "district_name": "Gurugram",
+    "district_code": 62,
+    "no_of_taluka": 11,
+    "no_of_ward": 60,
+    "no_of_village_ward": 600,
+    "no_of_aw_urban": 316,
+    "no_of_aw_rural": 1591,
+    "region": "Gurugram"
+  },
+  {
+    "district_name": "Hansi",
+    "district_code": 396,
+    "no_of_taluka": 9,
+    "no_of_ward": 92,
+    "no_of_village_ward": 446,
+    "no_of_aw_urban": 2122,
+    "no_of_aw_rural": 1500,
+    "region": "Hisar"
+  },
+  {
+    "district_name": "Hisar",
+    "district_code": 63,
+    "no_of_taluka": 6,
+    "no_of_ward": 15,
+    "no_of_village_ward": 596,
+    "no_of_aw_urban": 0,
+    "no_of_aw_rural": 1450,
+    "region": "Hisar"
+  },
+  {
+    "district_name": "Jhajjar",
+    "district_code": 64,
+    "no_of_taluka": 3,
+    "no_of_ward": 0,
+    "no_of_village_ward": 309,
+    "no_of_aw_urban": 0,
+    "no_of_aw_rural": 441,
+    "region": "Rohtak"
+  },
+  {
+    "district_name": "Jind",
+    "district_code": 65,
+    "no_of_taluka": 14,
+    "no_of_ward": 46,
+    "no_of_village_ward": 1151,
+    "no_of_aw_urban": 0,
+    "no_of_aw_rural": 3365,
+    "region": "Hisar"
+  },
+  {
+    "district_name": "Kaithal",
+    "district_code": 66,
+    "no_of_taluka": 10,
+    "no_of_ward": 54,
+    "no_of_village_ward": 568,
+    "no_of_aw_urban": 0,
+    "no_of_aw_rural": 1920,
+    "region": "Karnal"
+  },
+  {
+    "district_name": "Karnal",
+    "district_code": 67,
+    "no_of_taluka": 4,
+    "no_of_ward": 24,
+    "no_of_village_ward": 175,
+    "no_of_aw_urban": 0,
+    "no_of_aw_rural": 569,
+    "region": "Karnal"
+  },
+  {
+    "district_name": "Kurukshetra",
+    "district_code": 68,
+    "no_of_taluka": 6,
+    "no_of_ward": 7,
+    "no_of_village_ward": 701,
+    "no_of_aw_urban": 0,
+    "no_of_aw_rural": 1182,
+    "region": "Ambala"
+  },
+  {
+    "district_name": "Mahendragarh",
+    "district_code": 69,
+    "no_of_taluka": 4,
+    "no_of_ward": 41,
+    "no_of_village_ward": 229,
+    "no_of_aw_urban": 0,
+    "no_of_aw_rural": 691,
+    "region": "Gurugram"
+  },
+  {
+    "district_name": "Nuh",
+    "district_code": 604,
     "no_of_taluka": 5,
     "no_of_ward": 4,
     "no_of_village_ward": 533,
     "no_of_aw_urban": 0,
     "no_of_aw_rural": 952,
-    "region": "Central Gujarat"
+    "region": "Faridabad"
   },
   {
-    "district_name": "NAVSARI",
-    "district_code": "453",
+    "district_name": "Palwal",
+    "district_code": 619,
+    "no_of_taluka": 11,
+    "no_of_ward": 65,
+    "no_of_village_ward": 555,
+    "no_of_aw_urban": 0,
+    "no_of_aw_rural": 1616,
+    "region": "Faridabad"
+  },
+  {
+    "district_name": "Panchkula",
+    "district_code": 70,
+    "no_of_taluka": 8,
+    "no_of_ward": 21,
+    "no_of_village_ward": 677,
+    "no_of_aw_urban": 0,
+    "no_of_aw_rural": 3056,
+    "region": "Ambala"
+  },
+  {
+    "district_name": "Panipat",
+    "district_code": 71,
+    "no_of_taluka": 7,
+    "no_of_ward": 44,
+    "no_of_village_ward": 386,
+    "no_of_aw_urban": 309,
+    "no_of_aw_rural": 888,
+    "region": "Karnal"
+  },
+  {
+    "district_name": "Rewari",
+    "district_code": 72,
+    "no_of_taluka": 6,
+    "no_of_ward": 38,
+    "no_of_village_ward": 332,
+    "no_of_aw_urban": 0,
+    "no_of_aw_rural": 1166,
+    "region": "Gurugram"
+  },
+  {
+    "district_name": "Rohtak",
+    "district_code": 73,
     "no_of_taluka": 5,
     "no_of_ward": 4,
     "no_of_village_ward": 533,
     "no_of_aw_urban": 0,
     "no_of_aw_rural": 1330,
-    "region": "South Gujarat"
+    "region": "Rohtak"
   },
   {
-    "district_name": "PANCH MAHALS",
-    "district_code": "454",
-    "no_of_taluka": 7,
-    "no_of_ward": 30,
-    "no_of_village_ward": 562,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 2000,
-    "region": "Central Gujarat"
-  },
-  {
-    "district_name": "PATAN",
-    "district_code": "455",
-    "no_of_taluka": 9,
-    "no_of_ward": 39,
-    "no_of_village_ward": 493,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 1427,
-    "region": "North Gujarat"
-  },
-  {
-    "district_name": "PORBANDAR",
-    "district_code": "456",
-    "no_of_taluka": 3,
-    "no_of_ward": 26,
-    "no_of_village_ward": 152,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 489,
-    "region": "Coastal Saurashtra"
-  },
-  {
-    "district_name": "RAJKOT",
-    "district_code": "457",
-    "no_of_taluka": 12,
-    "no_of_ward": 68,
-    "no_of_village_ward": 529,
-    "no_of_aw_urban": 364,
-    "no_of_aw_rural": 1360,
-    "region": "Saurashtra"
-  },
-  {
-    "district_name": "SABAR KANTHA",
-    "district_code": "458",
-    "no_of_taluka": 8,
+    "district_name": "Sirsa",
+    "district_code": 74,
+    "no_of_taluka": 4,
     "no_of_ward": 41,
-    "no_of_village_ward": 617,
+    "no_of_village_ward": 229,
     "no_of_aw_urban": 0,
-    "no_of_aw_rural": 1922,
-    "region": "North Gujarat"
+    "no_of_aw_rural": 1068,
+    "region": "Hisar"
   },
   {
-    "district_name": "SURAT",
-    "district_code": "459",
+    "district_name": "Sonipat",
+    "district_code": 75,
     "no_of_taluka": 10,
     "no_of_ward": 72,
     "no_of_village_ward": 664,
     "no_of_aw_urban": 1092,
     "no_of_aw_rural": 1733,
-    "region": "South Gujarat"
+    "region": "Rohtak"
   },
   {
-    "district_name": "SURENDRANAGAR",
-    "district_code": "460",
+    "district_name": "Yamunanagar",
+    "district_code": 76,
     "no_of_taluka": 10,
-    "no_of_ward": 48,
-    "no_of_village_ward": 538,
+    "no_of_ward": 71,
+    "no_of_village_ward": 479,
     "no_of_aw_urban": 0,
-    "no_of_aw_rural": 1348,
-    "region": "Saurashtra"
-  },
-  {
-    "district_name": "TAPI",
-    "district_code": "641",
-    "no_of_taluka": 5,
-    "no_of_ward": 13,
-    "no_of_village_ward": 467,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 1049,
-    "region": "South Gujarat"
-  },
-  {
-    "district_name": "VADODARA",
-    "district_code": "461",
-    "no_of_taluka": 9,
-    "no_of_ward": 44,
-    "no_of_village_ward": 601,
-    "no_of_aw_urban": 399,
-    "no_of_aw_rural": 1448,
-    "region": "Central Gujarat"
-  },
-  {
-    "district_name": "VALSAD",
-    "district_code": "462",
-    "no_of_taluka": 6,
-    "no_of_ward": 42,
-    "no_of_village_ward": 454,
-    "no_of_aw_urban": 0,
-    "no_of_aw_rural": 1899,
-    "region": "South Gujarat"
+    "no_of_aw_rural": 1979,
+    "region": "Ambala"
   }
 ]

@@ -19,21 +19,21 @@ const FY_OPTIONS = [
 ]
 
 const REGIONS_LIST = [
-  { name: 'Central Gujarat', color: '#a855f7' },
-  { name: 'Coastal Saurashtra', color: '#38bdf8' },
-  { name: 'Kutch', color: '#84cc16' },
-  { name: 'North Gujarat', color: '#f43f5e' },
-  { name: 'Saurashtra', color: '#eab308' },
-  { name: 'South Gujarat', color: '#f97316' },
+  { name: 'Ambala', color: '#a855f7' },
+  { name: 'Faridabad', color: '#38bdf8' },
+  { name: 'Gurugram', color: '#84cc16' },
+  { name: 'Hisar', color: '#f43f5e' },
+  { name: 'Karnal', color: '#eab308' },
+  { name: 'Rohtak', color: '#f97316' },
 ]
 
 const REGION_DISTRICTS = {
-  'Central Gujarat': ['ANAND', 'DAHOD', 'PANCHMAHAL', 'VADODARA', 'NARMADA', 'CHHOTA UDAIPUR', 'KHEDA', 'MAHISAGAR'],
-  'Coastal Saurashtra': ['AMRELI', 'BHAVNAGAR', 'DEVBHUMI DWARKA', 'GIR SOMNATH', 'JUNAGADH', 'PORBANDAR'],
-  'Kutch': ['KACHCHH'],
-  'North Gujarat': ['AHMADABAD', 'ARVALLI', 'BANAS KANTHA', 'GANDHINAGAR', 'MAHESANA', 'PATAN', 'SABAR KANTHA'],
-  'Saurashtra': ['BOTAD', 'JAMNAGAR', 'MORBI', 'RAJKOT', 'SURENDRANAGAR'],
-  'South Gujarat': ['BHARUCH', 'DANG', 'NAVSARI', 'SURAT', 'TAPI', 'VALSAD'],
+  'Ambala': ['Ambala', 'Kurukshetra', 'Panchkula', 'Yamunanagar'],
+  'Faridabad': ['Faridabad', 'Nuh', 'Palwal'],
+  'Gurugram': ['Gurugram', 'Mahendragarh', 'Rewari'],
+  'Hisar': ['Fatehabad', 'Hansi', 'Hisar', 'Jind', 'Sirsa'],
+  'Karnal': ['Kaithal', 'Karnal', 'Panipat'],
+  'Rohtak': ['Bhiwani', 'Charkhi Dadri', 'Jhajjar', 'Rohtak', 'Sonipat'],
 }
 
 function StatCards() {

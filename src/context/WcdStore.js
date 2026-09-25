@@ -12,7 +12,8 @@ const useWcdStore = create((set, get) => ({
   config: null,          // wcdConfig.json
   districts: null,       // districts.json (with regions)
   overviewAggregates: null, // NSWLD-overview-aggregates.json
-  gujaratTopo: null,     // gujarat.json (TopoJSON)
+  gujaratTopo: null,     // haryana_districts.geojson (GeoJSON)
+  haryanaGeoJson: null,
 
   // Raw Data for filtering
   rawAyush: null,        // NSWLD-01.json
@@ -49,7 +50,7 @@ const useWcdStore = create((set, get) => ({
         fetch('/data/wcdConfig.json'),
         fetch('/data/districts.json'),
         fetch('/data/NSWLD-overview-aggregates.json'),
-        fetch('/data/gujarat.json'),
+        fetch('/data/haryana_districts.geojson'),
         fetch('/data/NSWLD-01.json'),
         fetch('/data/NSWLD-10.json'),
         fetch('/data/NSWLD-10_2.json'),
@@ -102,6 +103,7 @@ const useWcdStore = create((set, get) => ({
         districts,
         overviewAggregates,
         gujaratTopo,
+        haryanaGeoJson: gujaratTopo,
         rawAyush,
         rawBbbp,
         rawVahali,

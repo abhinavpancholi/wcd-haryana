@@ -3,7 +3,7 @@ import React from 'react'
 /**
  * WCD Dashboard Header — Light Theme
  */
-export default function Header({ pageSubtitle = 'Viksit Gujarat Vision @2047' }) {
+export default function Header({ pageSubtitle = 'Viksit Haryana Vision @2047' }) {
   return (
     <header className="wcd-header">
       {/* Left — Map icon & GRIT Badge */}

@@ -1,372 +1,302 @@
 {
-  "avg_girls_trained_per_month_current_fy": 891683.54,
+  "avg_girls_trained_per_month_current_fy": 638246.7,
   "active_anganwadis": {
-    "total": 53029,
-    "rural": 48427,
-    "urban": 4602
+    "total": 37896,
+    "rural": 34057,
+    "urban": 3839
   },
-  "total_bbbp_programs_all_time": 13107,
-  "total_vahali_dikari_beneficiaries_all_time": 333801,
+  "total_bbbp_programs_all_time": 8638,
+  "total_vahali_dikari_beneficiaries_all_time": 233948,
   "ayush_thr_pct_all_time": 76.6,
   "monthly_bbbp_spread": [
     {
       "month": "April",
-      "total_programs": 661
+      "total_programs": 484
     },
     {
       "month": "May",
-      "total_programs": 398
+      "total_programs": 245
     },
     {
       "month": "June",
-      "total_programs": 677
+      "total_programs": 450
     },
     {
       "month": "July",
-      "total_programs": 1063
+      "total_programs": 722
     },
     {
       "month": "August",
-      "total_programs": 1218
+      "total_programs": 812
     },
     {
       "month": "September",
-      "total_programs": 956
+      "total_programs": 643
     },
     {
       "month": "October",
-      "total_programs": 1195
+      "total_programs": 813
     },
     {
       "month": "November",
-      "total_programs": 982
+      "total_programs": 640
     },
     {
       "month": "December",
-      "total_programs": 1622
+      "total_programs": 976
     },
     {
       "month": "January",
-      "total_programs": 1641
+      "total_programs": 1061
     },
     {
       "month": "February",
-      "total_programs": 1420
+      "total_programs": 981
     },
     {
       "month": "March",
-      "total_programs": 1274
+      "total_programs": 811
     }
   ],
   "girls_registered_vs_trained_by_fy": [
     {
       "fy": "2020-21",
-      "registered": 1321364.0,
-      "trained": 817137.67,
-      "registered_lakh": 13.21,
-      "trained_lakh": 8.17,
-      "pct_trained": 61.84
+      "registered": 986673.17,
+      "trained": 616906.25,
+      "registered_lakh": 9.87,
+      "trained_lakh": 6.17,
+      "pct_trained": 62.52
     },
     {
       "fy": "2021-22",
-      "registered": 1199360.0,
-      "trained": 1105969.58,
-      "registered_lakh": 11.99,
-      "trained_lakh": 11.06,
-      "pct_trained": 92.21
+      "registered": 875391.92,
+      "trained": 809668.75,
+      "registered_lakh": 8.75,
+      "trained_lakh": 8.1,
+      "pct_trained": 92.49
     },
     {
       "fy": "2022-23",
-      "registered": 1131057.92,
-      "trained": 1102046.9,
-      "registered_lakh": 11.31,
-      "trained_lakh": 11.02,
-      "pct_trained": 97.44
+      "registered": 831544.17,
+      "trained": 814831.07,
+      "registered_lakh": 8.32,
+      "trained_lakh": 8.15,
+      "pct_trained": 97.99
     },
     {
       "fy": "2023-24",
-      "registered": 1058209.0,
-      "trained": 972850.17,
-      "registered_lakh": 10.58,
-      "trained_lakh": 9.73,
-      "pct_trained": 91.93
+      "registered": 779088.42,
+      "trained": 720852.83,
+      "registered_lakh": 7.79,
+      "trained_lakh": 7.21,
+      "pct_trained": 92.53
     },
     {
       "fy": "2024-25",
-      "registered": 1015345.42,
-      "trained": 965917.91,
-      "registered_lakh": 10.15,
-      "trained_lakh": 9.66,
-      "pct_trained": 95.13
+      "registered": 742479.17,
+      "trained": 706058.41,
+      "registered_lakh": 7.42,
+      "trained_lakh": 7.06,
+      "pct_trained": 95.09
     },
     {
       "fy": "2025-26",
-      "registered": 962594.75,
-      "trained": 891683.54,
-      "registered_lakh": 9.63,
-      "trained_lakh": 8.92,
-      "pct_trained": 92.63
+      "registered": 697459.75,
+      "trained": 638246.7,
+      "registered_lakh": 6.97,
+      "trained_lakh": 6.38,
+      "pct_trained": 91.51
     }
   ],
   "ayush_thr_pct_by_district": [
     {
-      "district_name": "NARMADA",
+      "district_name": "Kaithal",
       "pct": 84.56
     },
     {
-      "district_name": "BHAVNAGAR",
+      "district_name": "Ambala",
       "pct": 77.99
     },
     {
-      "district_name": "DANG",
+      "district_name": "Faridabad",
       "pct": 76.21
     },
     {
-      "district_name": "DEVBHUMI DWARKA",
+      "district_name": "Fatehabad",
       "pct": 75.76
     },
     {
-      "district_name": "DAHOD",
+      "district_name": "Bhiwani",
       "pct": 74.98
     },
     {
-      "district_name": "JAMNAGAR",
+      "district_name": "Gurugram",
       "pct": 72.95
     }
   ],
   "vahali_dikari_by_district": [
     {
-      "district_name": "SURAT",
-      "district_name_topo": "Surat",
-      "district_code": "459",
+      "district_name": "Sonipat",
+      "district_name_topo": "Sonipat",
+      "district_code": 75,
       "total": 31835
     },
     {
-      "district_name": "RAJKOT",
-      "district_name_topo": "Rajkot",
-      "district_code": "457",
-      "total": 25821
-    },
-    {
-      "district_name": "BHAVNAGAR",
-      "district_name_topo": "Bhavnagar",
-      "district_code": "443",
+      "district_name": "Gurugram",
+      "district_name_topo": "Gurugram",
+      "district_code": 62,
       "total": 24765
     },
     {
-      "district_name": "AHMADABAD",
-      "district_name_topo": "Ahmedabad",
-      "district_code": "438",
+      "district_name": "Hansi",
+      "district_name_topo": "Hansi",
+      "district_code": 396,
       "total": 23621
     },
     {
-      "district_name": "GIR SOMNATH",
-      "district_name_topo": "Gir Somnath",
-      "district_code": "675",
+      "district_name": "Rewari",
+      "district_name_topo": "Rewari",
+      "district_code": 72,
       "total": 20531
     },
     {
-      "district_name": "JUNAGADH",
-      "district_name_topo": "Junagadh",
-      "district_code": "448",
-      "total": 17573
-    },
-    {
-      "district_name": "AMRELI",
-      "district_name_topo": "Amreli",
-      "district_code": "439",
+      "district_name": "Palwal",
+      "district_name_topo": "Palwal",
+      "district_code": 619,
       "total": 16369
     },
     {
-      "district_name": "VADODARA",
-      "district_name_topo": "Vadodara",
-      "district_code": "461",
-      "total": 13246
-    },
-    {
-      "district_name": "JAMNAGAR",
-      "district_name_topo": "Jamnagar",
-      "district_code": "447",
+      "district_name": "Panipat",
+      "district_name_topo": "Panipat",
+      "district_code": 71,
       "total": 13168
     },
     {
-      "district_name": "MAHESANA",
-      "district_name_topo": "Mehsana",
-      "district_code": "451",
+      "district_name": "Kaithal",
+      "district_name_topo": "Kaithal",
+      "district_code": 66,
       "total": 13129
     },
     {
-      "district_name": "KACHCHH",
-      "district_name_topo": "Kutch",
-      "district_code": "449",
+      "district_name": "Fatehabad",
+      "district_name_topo": "Fatehabad",
+      "district_code": 61,
       "total": 10133
     },
     {
-      "district_name": "BHARUCH",
-      "district_name_topo": "Bharuch",
-      "district_code": "442",
+      "district_name": "Charkhi Dadri",
+      "district_name_topo": "Charkhi Dadri",
+      "district_code": 701,
       "total": 9692
     },
     {
-      "district_name": "ANAND",
-      "district_name_topo": "Anand",
-      "district_code": "440",
+      "district_name": "Ambala",
+      "district_name_topo": "Ambala",
+      "district_code": 58,
       "total": 9363
     },
     {
-      "district_name": "SURENDRANAGAR",
-      "district_name_topo": "Surendranagar",
-      "district_code": "460",
-      "total": 8951
-    },
-    {
-      "district_name": "BANAS KANTHA",
-      "district_name_topo": "Banaskantha",
-      "district_code": "441",
+      "district_name": "Jind",
+      "district_name_topo": "Jind",
+      "district_code": 65,
       "total": 8871
     },
     {
-      "district_name": "VALSAD",
-      "district_name_topo": "Valsad",
-      "district_code": "462",
-      "total": 7926
-    },
-    {
-      "district_name": "NAVSARI",
-      "district_name_topo": "Navsari",
-      "district_code": "453",
+      "district_name": "Rohtak",
+      "district_name_topo": "Rohtak",
+      "district_code": 73,
       "total": 7492
     },
     {
-      "district_name": "PORBANDAR",
-      "district_name_topo": "Porbandar",
-      "district_code": "456",
-      "total": 7002
-    },
-    {
-      "district_name": "PATAN",
-      "district_name_topo": "Patan",
-      "district_code": "455",
-      "total": 6713
-    },
-    {
-      "district_name": "BOTAD",
-      "district_name_topo": "Botad",
-      "district_code": "676",
+      "district_name": "Bhiwani",
+      "district_name_topo": "Bhiwani",
+      "district_code": 59,
       "total": 6538
     },
     {
-      "district_name": "MORBI",
-      "district_name_topo": "Morbi",
-      "district_code": "673",
+      "district_name": "Karnal",
+      "district_name_topo": "Karnal",
+      "district_code": 67,
       "total": 6538
     },
     {
-      "district_name": "DEVBHUMI DWARKA",
-      "district_name_topo": "Devbhumi Dwarka",
-      "district_code": "674",
+      "district_name": "Mahendragarh",
+      "district_name_topo": "Mahendragarh",
+      "district_code": 69,
       "total": 5844
     },
     {
-      "district_name": "GANDHINAGAR",
-      "district_name_topo": "Gandhinagar",
-      "district_code": "446",
+      "district_name": "Sirsa",
+      "district_name_topo": "Sirsa",
+      "district_code": 74,
       "total": 5688
     },
     {
-      "district_name": "KHEDA",
-      "district_name_topo": "Kheda",
-      "district_code": "450",
+      "district_name": "Yamunanagar",
+      "district_name_topo": "Yamunanagar",
+      "district_code": 76,
       "total": 5642
     },
     {
-      "district_name": "SABAR KANTHA",
-      "district_name_topo": "Sabarkantha",
-      "district_code": "458",
-      "total": 4756
-    },
-    {
-      "district_name": "PANCH MAHALS",
-      "district_name_topo": "Panchmahal",
-      "district_code": "454",
-      "total": 4100
-    },
-    {
-      "district_name": "ARVALLI",
-      "district_name_topo": "Aravalli",
-      "district_code": "672",
+      "district_name": "Hisar",
+      "district_name_topo": "Hisar",
+      "district_code": 63,
       "total": 3855
     },
     {
-      "district_name": "TAPI",
-      "district_name_topo": "Tapi",
-      "district_code": "641",
-      "total": 3765
-    },
-    {
-      "district_name": "MAHISAGAR",
-      "district_name_topo": "Mahisagar",
-      "district_code": "669",
+      "district_name": "Faridabad",
+      "district_name_topo": "Faridabad",
+      "district_code": 60,
       "total": 3469
     },
     {
-      "district_name": "CHHOTAUDEPUR",
-      "district_name_topo": "Chhota Udaipur",
-      "district_code": "668",
+      "district_name": "Kurukshetra",
+      "district_name_topo": "Kurukshetra",
+      "district_code": 68,
       "total": 2492
     },
     {
-      "district_name": "NARMADA",
-      "district_name_topo": "Narmada",
-      "district_code": "452",
+      "district_name": "Nuh",
+      "district_name_topo": "Nuh",
+      "district_code": 604,
       "total": 1963
     },
     {
-      "district_name": "DAHOD",
-      "district_name_topo": "Dahod",
-      "district_code": "445",
+      "district_name": "Panchkula",
+      "district_name_topo": "Panchkula",
+      "district_code": 70,
       "total": 1733
     },
     {
-      "district_name": "DANG",
-      "district_name_topo": "Dang",
-      "district_code": "444",
+      "district_name": "Jhajjar",
+      "district_name_topo": "Jhajjar",
+      "district_code": 64,
       "total": 1217
     }
   ],
   "district_name_map": {
-    "AHMADABAD": "Ahmedabad",
-    "AMRELI": "Amreli",
-    "ANAND": "Anand",
-    "ARVALLI": "Aravalli",
-    "BANAS KANTHA": "Banaskantha",
-    "BHARUCH": "Bharuch",
-    "BHAVNAGAR": "Bhavnagar",
-    "BOTAD": "Botad",
-    "CHHOTAUDEPUR": "Chhota Udaipur",
-    "DAHOD": "Dahod",
-    "DANG": "Dang",
-    "DEVBHUMI DWARKA": "Devbhumi Dwarka",
-    "GANDHINAGAR": "Gandhinagar",
-    "GIR SOMNATH": "Gir Somnath",
-    "JAMNAGAR": "Jamnagar",
-    "JUNAGADH": "Junagadh",
-    "KACHCHH": "Kutch",
-    "KHEDA": "Kheda",
-    "MAHESANA": "Mehsana",
-    "MORBI": "Morbi",
-    "MAHISAGAR": "Mahisagar",
-    "NARMADA": "Narmada",
-    "NAVSARI": "Navsari",
-    "PANCH MAHALS": "Panchmahal",
-    "PATAN": "Patan",
-    "PORBANDAR": "Porbandar",
-    "RAJKOT": "Rajkot",
-    "SABAR KANTHA": "Sabarkantha",
-    "SURAT": "Surat",
-    "SURENDRANAGAR": "Surendranagar",
-    "TAPI": "Tapi",
-    "VADODARA": "Vadodara",
-    "VALSAD": "Valsad"
+    "Ambala": "Ambala",
+    "Bhiwani": "Bhiwani",
+    "Charkhi Dadri": "Charkhi Dadri",
+    "Faridabad": "Faridabad",
+    "Fatehabad": "Fatehabad",
+    "Gurugram": "Gurugram",
+    "Hansi": "Hansi",
+    "Hisar": "Hisar",
+    "Jhajjar": "Jhajjar",
+    "Jind": "Jind",
+    "Kaithal": "Kaithal",
+    "Karnal": "Karnal",
+    "Kurukshetra": "Kurukshetra",
+    "Mahendragarh": "Mahendragarh",
+    "Nuh": "Nuh",
+    "Palwal": "Palwal",
+    "Panchkula": "Panchkula",
+    "Panipat": "Panipat",
+    "Rewari": "Rewari",
+    "Rohtak": "Rohtak",
+    "Sirsa": "Sirsa",
+    "Sonipat": "Sonipat",
+    "Yamunanagar": "Yamunanagar"
   }
 }

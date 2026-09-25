@@ -11,13 +11,12 @@
  */
 function matchGeo(row, { selectedRegion, selectedDistrict }, districts) {
   if (selectedDistrict) {
-    // strict match
-    // we use case-insensitive or exact match since ETL normalizes to uppercase
-    return row.district_name === selectedDistrict;
+    // strict match (case-insensitive)
+    return row.district_name && row.district_name.toLowerCase() === selectedDistrict.toLowerCase();
   }
   if (selectedRegion) {
     // find district in districts array to check region
-    const d = districts.find(d => d.district_name === row.district_name);
+    const d = districts.find(d => d.district_name && d.district_name.toLowerCase() === row.district_name?.toLowerCase());
     return d && d.region === selectedRegion;
   }
   return true;
@@ -183,7 +182,7 @@ export function getGirlsTrainedComboData(rawGirls, filters, districts, drillLeve
     });
   } else if (drillLevel === 'region') {
     const fyRows = rows.filter(r => r.fy === filters.selectedFY);
-    const REGIONS = ["Central Gujarat", "Coastal Saurashtra", "Kutch", "North Gujarat", "Saurashtra", "South Gujarat"];
+    const REGIONS = ["Ambala", "Faridabad", "Gurugram", "Hisar", "Karnal", "Rohtak"];
     const regData = {};
     REGIONS.forEach(r => regData[r] = { registeredSum: 0, trainedSum: 0, months: new Set() });
 
@@ -272,7 +271,7 @@ export function getBbbpMonthlyData(rawBbbp, filters, districts, drillLevel = 'ti
       total_programs: monthly[month.toUpperCase()] || 0
     }));
   } else if (drillLevel === 'region') {
-    const REGIONS = ["Central Gujarat", "Coastal Saurashtra", "Kutch", "North Gujarat", "Saurashtra", "South Gujarat"];
+    const REGIONS = ["Ambala", "Faridabad", "Gurugram", "Hisar", "Karnal", "Rohtak"];
     const regData = {};
     REGIONS.forEach(r => regData[r] = 0);
     rows.forEach(r => {
@@ -314,31 +313,34 @@ export function getAyushThrData(rawAyush, filters, districts) {
   // Filter for FY, ignore geo for now so we can aggregate appropriately by region or district
   const rows = filterRows(rawAyush, { ...filters, selectedDistrict: null }, districts);
 
-  const targetDistricts = ['NARMADA', 'BHAVNAGAR', 'DANG', 'DEVBHUMI DWARKA', 'DAHOD', 'JAMNAGAR'];
+  const targetDistricts = ['Ambala', 'Bhiwani', 'Faridabad', 'Fatehabad', 'Gurugram', 'Kaithal'];
 
   const distData = {};
   targetDistricts.forEach(dName => {
     let inRegion = true;
     if (filters.selectedRegion) {
-      const dObj = districts.find(dist => dist.district_name === dName);
+      const dObj = districts.find(dist => dist.district_name && dist.district_name.toLowerCase() === dName.toLowerCase());
       if (dObj && dObj.region !== filters.selectedRegion) {
         inRegion = false;
       }
     }
-    distData[dName] = { actual: 0, target: 0, hasPilot: true, inRegion };
+    distData[dName.toLowerCase()] = { name: dName, actual: 0, target: 0, hasPilot: true, inRegion };
   });
 
   rows.forEach(r => {
-    if (r.district_name && distData[r.district_name]) {
-      if (r.actual != null) { distData[r.district_name].actual += r.actual; }
-      if (r.target != null) { distData[r.district_name].target += r.target; }
+    if (r.district_name) {
+      const key = r.district_name.toLowerCase();
+      if (distData[key]) {
+        if (r.actual != null) { distData[key].actual += r.actual; }
+        if (r.target != null) { distData[key].target += r.target; }
+      }
     }
   });
 
   return targetDistricts.map(dist => {
-    const { actual, target, inRegion } = distData[dist];
+    const { name, actual, target, inRegion } = distData[dist.toLowerCase()];
     return {
-      name: dist,
+      name: name || dist,
       type: 'district',
       pct: target > 0 ? (actual / target) * 100 : 0,
       actual,
@@ -578,7 +580,7 @@ export function getPoshanTrackerKpi(rawPoshan, filters, districts) {
 export function getAyushThrTargetActual(rawAyush, selectedFY, selectedRegion, selectedDistrict, districts) {
   if (!rawAyush || !districts) return [];
 
-  const PILOT_DISTRICTS = ['NARMADA', 'BHAVNAGAR', 'DANG', 'DEVBHUMI DWARKA', 'DAHOD', 'JAMNAGAR'];
+  const PILOT_DISTRICTS = ['Ambala', 'Bhiwani', 'Faridabad', 'Fatehabad', 'Gurugram', 'Kaithal'];
 
   // Filter rows by FY only (not geo — we always show all 6 pilot districts, just dim non-region ones)
   const rows = rawAyush.filter(r => {
@@ -587,12 +589,15 @@ export function getAyushThrTargetActual(rawAyush, selectedFY, selectedRegion, se
   });
 
   const distData = {};
-  PILOT_DISTRICTS.forEach(d => distData[d] = { target: 0, actual: 0 });
+  PILOT_DISTRICTS.forEach(d => distData[d.toLowerCase()] = { name: d, target: 0, actual: 0 });
 
   rows.forEach(r => {
-    if (r.district_name && distData[r.district_name]) {
-      if (r.target != null) distData[r.district_name].target += r.target;
-      if (r.actual != null) distData[r.district_name].actual += r.actual;
+    if (r.district_name) {
+      const key = r.district_name.toLowerCase();
+      if (distData[key]) {
+        if (r.target != null) distData[key].target += r.target;
+        if (r.actual != null) distData[key].actual += r.actual;
+      }
     }
   });
 
@@ -600,21 +605,21 @@ export function getAyushThrTargetActual(rawAyush, selectedFY, selectedRegion, se
   let visibleDistricts = PILOT_DISTRICTS;
   if (selectedRegion) {
     visibleDistricts = PILOT_DISTRICTS.filter(d => {
-      const dObj = districts.find(dist => dist.district_name === d);
+      const dObj = districts.find(dist => dist.district_name && dist.district_name.toLowerCase() === d.toLowerCase());
       return dObj && dObj.region === selectedRegion;
     });
   }
   if (selectedDistrict) {
-    visibleDistricts = PILOT_DISTRICTS.filter(d => d === selectedDistrict);
+    visibleDistricts = PILOT_DISTRICTS.filter(d => d.toLowerCase() === selectedDistrict.toLowerCase());
   }
 
   // If no pilot districts match the geo filter, return empty
   if (visibleDistricts.length === 0) return [];
 
   return visibleDistricts.map(d => ({
-    name: d,
-    target_lakh: distData[d].target / 100000,
-    actual_lakh: distData[d].actual / 100000,
+    name: distData[d.toLowerCase()]?.name || d,
+    target_lakh: distData[d.toLowerCase()].target / 100000,
+    actual_lakh: distData[d.toLowerCase()].actual / 100000,
   })).sort((a, b) => b.target_lakh - a.target_lakh);
 }
 

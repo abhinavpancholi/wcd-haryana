@@ -80,7 +80,7 @@ export default function Overview() {
   
   // Overall AYUSH THR % logic based on active geo
   const activeAyushData = ayushPctData.filter(d => {
-    if (selectedDistrict) return d.name === selectedDistrict;
+    if (selectedDistrict) return d.name.toLowerCase() === selectedDistrict.toLowerCase();
     if (selectedRegion) return d.inRegion;
     return true;
   });

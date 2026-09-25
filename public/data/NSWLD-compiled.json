@@ -1,658 +1,450 @@
 [
   {
-    "district_name": "AHMADABAD",
-    "district_code": "438",
+    "district_name": "Hansi",
+    "district_code": 396,
     "month": "2025-04",
     "female": 235,
     "male": 335,
     "total": 570
   },
   {
-    "district_name": "AHMADABAD",
-    "district_code": "438",
+    "district_name": "Hansi",
+    "district_code": 396,
     "month": "2025-10",
     "female": 130,
     "male": 157,
     "total": 287
   },
   {
-    "district_name": "AHMADABAD URBAN",
-    "district_code": "438",
+    "district_name": "Hansi",
+    "district_code": 396,
     "month": "2025-04",
     "female": 494,
     "male": 661,
     "total": 1155
   },
   {
-    "district_name": "AHMADABAD URBAN",
-    "district_code": "438",
+    "district_name": "Hansi",
+    "district_code": 396,
     "month": "2025-10",
     "female": 308,
     "male": 401,
     "total": 709
   },
   {
-    "district_name": "AMRELI",
-    "district_code": "439",
+    "district_name": "Palwal",
+    "district_code": 619,
     "month": "2025-04",
     "female": 233,
     "male": 289,
     "total": 522
   },
   {
-    "district_name": "AMRELI",
-    "district_code": "439",
+    "district_name": "Palwal",
+    "district_code": 619,
     "month": "2025-10",
     "female": 136,
     "male": 200,
     "total": 336
   },
   {
-    "district_name": "ANAND",
-    "district_code": "440",
+    "district_name": "Ambala",
+    "district_code": 58,
     "month": "2025-04",
     "female": 1091,
     "male": 1478,
     "total": 2569
   },
   {
-    "district_name": "ANAND",
-    "district_code": "440",
+    "district_name": "Ambala",
+    "district_code": 58,
     "month": "2025-10",
     "female": 419,
     "male": 621,
     "total": 1040
   },
   {
-    "district_name": "ARAVALLI",
-    "district_code": "672",
+    "district_name": "Hisar",
+    "district_code": 63,
     "month": "2025-04",
     "female": 366,
     "male": 532,
     "total": 898
   },
   {
-    "district_name": "ARAVALLI",
-    "district_code": "672",
+    "district_name": "Hisar",
+    "district_code": 63,
     "month": "2025-10",
     "female": 227,
     "male": 316,
     "total": 543
   },
   {
-    "district_name": "BANASKANTHA",
-    "district_code": "441",
+    "district_name": "Jind",
+    "district_code": 65,
     "month": "2025-04",
     "female": 862,
     "male": 1156,
     "total": 2018
   },
   {
-    "district_name": "BANASKANTHA",
-    "district_code": "441",
+    "district_name": "Jind",
+    "district_code": 65,
     "month": "2025-10",
     "female": 801,
     "male": 1075,
     "total": 1876
   },
   {
-    "district_name": "BHARUCH",
-    "district_code": "442",
+    "district_name": "Charkhi Dadri",
+    "district_code": 701,
     "month": "2025-04",
     "female": 595,
     "male": 838,
     "total": 1433
   },
   {
-    "district_name": "BHARUCH",
-    "district_code": "442",
+    "district_name": "Charkhi Dadri",
+    "district_code": 701,
     "month": "2025-10",
     "female": 259,
     "male": 400,
     "total": 659
   },
   {
-    "district_name": "BHAVNAGAR",
-    "district_code": "443",
+    "district_name": "Gurugram",
+    "district_code": 62,
     "month": "2025-04",
     "female": 714,
     "male": 1026,
     "total": 1740
   },
   {
-    "district_name": "BHAVNAGAR",
-    "district_code": "443",
+    "district_name": "Gurugram",
+    "district_code": 62,
     "month": "2025-10",
     "female": 327,
     "male": 469,
     "total": 796
   },
   {
-    "district_name": "BHAVNAGAR URBAN",
-    "district_code": "443",
+    "district_name": "Gurugram",
+    "district_code": 62,
     "month": "2025-04",
     "female": 251,
     "male": 336,
     "total": 587
   },
   {
-    "district_name": "BHAVNAGAR URBAN",
-    "district_code": "443",
+    "district_name": "Gurugram",
+    "district_code": 62,
     "month": "2025-10",
     "female": 144,
     "male": 198,
     "total": 342
   },
   {
-    "district_name": "BOTAD",
-    "district_code": "676",
+    "district_name": "Karnal",
+    "district_code": 67,
     "month": "2025-04",
     "female": 281,
     "male": 338,
     "total": 619
   },
   {
-    "district_name": "BOTAD",
-    "district_code": "676",
+    "district_name": "Karnal",
+    "district_code": 67,
     "month": "2025-10",
     "female": 122,
     "male": 163,
     "total": 285
   },
   {
-    "district_name": "CHHOTA UDEPUR",
-    "district_code": "668",
+    "district_name": "Kurukshetra",
+    "district_code": 68,
     "month": "2025-04",
     "female": 527,
     "male": 726,
     "total": 1253
   },
   {
-    "district_name": "CHHOTA UDEPUR",
-    "district_code": "668",
+    "district_name": "Kurukshetra",
+    "district_code": 68,
     "month": "2025-10",
     "female": 385,
     "male": 507,
     "total": 892
   },
   {
-    "district_name": "DAHOD",
-    "district_code": "445",
+    "district_name": "Panchkula",
+    "district_code": 70,
     "month": "2025-04",
     "female": 439,
     "male": 699,
     "total": 1138
   },
   {
-    "district_name": "DAHOD",
-    "district_code": "445",
+    "district_name": "Panchkula",
+    "district_code": 70,
     "month": "2025-10",
     "female": 382,
     "male": 579,
     "total": 961
   },
   {
-    "district_name": "DANGS",
-    "district_code": "444",
+    "district_name": "Jhajjar",
+    "district_code": 64,
     "month": "2025-04",
     "female": 118,
     "male": 182,
     "total": 300
   },
   {
-    "district_name": "DANGS",
-    "district_code": "444",
+    "district_name": "Jhajjar",
+    "district_code": 64,
     "month": "2025-10",
     "female": 87,
     "male": 137,
     "total": 224
   },
   {
-    "district_name": "DEVBHUMI DWARKA",
-    "district_code": "674",
+    "district_name": "Mahendragarh",
+    "district_code": 69,
     "month": "2025-04",
     "female": 207,
     "male": 270,
     "total": 477
   },
   {
-    "district_name": "DEVBHUMI DWARKA",
-    "district_code": "674",
+    "district_name": "Mahendragarh",
+    "district_code": 69,
     "month": "2025-10",
     "female": 161,
     "male": 167,
     "total": 328
   },
   {
-    "district_name": "GANDHINAGAR",
-    "district_code": "446",
+    "district_name": "Sirsa",
+    "district_code": 74,
     "month": "2025-04",
     "female": 186,
     "male": 291,
     "total": 477
   },
   {
-    "district_name": "GANDHINAGAR",
-    "district_code": "446",
+    "district_name": "Sirsa",
+    "district_code": 74,
     "month": "2025-10",
     "female": 176,
     "male": 254,
     "total": 430
   },
   {
-    "district_name": "GANDHINAGAR URBAN",
-    "district_code": "446",
+    "district_name": "Sirsa",
+    "district_code": 74,
     "month": "2025-04",
     "female": 24,
     "male": 34,
     "total": 58
   },
   {
-    "district_name": "GANDHINAGAR URBAN",
-    "district_code": "446",
+    "district_name": "Sirsa",
+    "district_code": 74,
     "month": "2025-10",
     "female": 5,
     "male": 5,
     "total": 10
   },
   {
-    "district_name": "GIR SOMNATH",
-    "district_code": "675",
+    "district_name": "Rewari",
+    "district_code": 72,
     "month": "2025-04",
     "female": 205,
     "male": 267,
     "total": 472
   },
   {
-    "district_name": "GIR SOMNATH",
-    "district_code": "675",
+    "district_name": "Rewari",
+    "district_code": 72,
     "month": "2025-10",
     "female": 113,
     "male": 207,
     "total": 320
   },
   {
-    "district_name": "JAMNAGAR",
-    "district_code": "447",
+    "district_name": "Panipat",
+    "district_code": 71,
     "month": "2025-04",
     "female": 209,
     "male": 269,
     "total": 478
   },
   {
-    "district_name": "JAMNAGAR",
-    "district_code": "447",
+    "district_name": "Panipat",
+    "district_code": 71,
     "month": "2025-10",
     "female": 161,
     "male": 209,
     "total": 370
   },
   {
-    "district_name": "JAMNAGAR URBAN",
-    "district_code": "447",
+    "district_name": "Panipat",
+    "district_code": 71,
     "month": "2025-04",
     "female": 103,
     "male": 118,
     "total": 221
   },
   {
-    "district_name": "JAMNAGAR URBAN",
-    "district_code": "447",
+    "district_name": "Panipat",
+    "district_code": 71,
     "month": "2025-10",
     "female": 65,
     "male": 84,
     "total": 149
   },
   {
-    "district_name": "JUNAGADH",
-    "district_code": "448",
-    "month": "2025-04",
-    "female": 345,
-    "male": 442,
-    "total": 787
-  },
-  {
-    "district_name": "JUNAGADH",
-    "district_code": "448",
-    "month": "2025-10",
-    "female": 224,
-    "male": 269,
-    "total": 493
-  },
-  {
-    "district_name": "JUNAGADH URBAN",
-    "district_code": "448",
-    "month": "2025-04",
-    "female": 78,
-    "male": 132,
-    "total": 210
-  },
-  {
-    "district_name": "JUNAGADH URBAN",
-    "district_code": "448",
-    "month": "2025-10",
-    "female": 51,
-    "male": 91,
-    "total": 142
-  },
-  {
-    "district_name": "KACHCHH",
-    "district_code": "449",
+    "district_name": "Fatehabad",
+    "district_code": 61,
     "month": "2025-04",
     "female": 402,
     "male": 587,
     "total": 989
   },
   {
-    "district_name": "KACHCHH",
-    "district_code": "449",
+    "district_name": "Fatehabad",
+    "district_code": 61,
     "month": "2025-10",
     "female": 435,
     "male": 568,
     "total": 1003
   },
   {
-    "district_name": "KHEDA",
-    "district_code": "450",
+    "district_name": "Yamunanagar",
+    "district_code": 76,
     "month": "2025-04",
     "female": 696,
     "male": 971,
     "total": 1667
   },
   {
-    "district_name": "KHEDA",
-    "district_code": "450",
+    "district_name": "Yamunanagar",
+    "district_code": 76,
     "month": "2025-10",
     "female": 526,
     "male": 692,
     "total": 1218
   },
   {
-    "district_name": "MAHESANA",
-    "district_code": "451",
+    "district_name": "Kaithal",
+    "district_code": 66,
     "month": "2025-04",
     "female": 260,
     "male": 439,
     "total": 699
   },
   {
-    "district_name": "MAHESANA",
-    "district_code": "451",
+    "district_name": "Kaithal",
+    "district_code": 66,
     "month": "2025-10",
     "female": 163,
     "male": 288,
     "total": 451
   },
   {
-    "district_name": "MAHISAGAR",
-    "district_code": "669",
+    "district_name": "Faridabad",
+    "district_code": 60,
     "month": "2025-04",
     "female": 805,
     "male": 1102,
     "total": 1907
   },
   {
-    "district_name": "MAHISAGAR",
-    "district_code": "669",
+    "district_name": "Faridabad",
+    "district_code": 60,
     "month": "2025-10",
     "female": 274,
     "male": 397,
     "total": 671
   },
   {
-    "district_name": "MORBI",
-    "district_code": "673",
+    "district_name": "Bhiwani",
+    "district_code": 59,
     "month": "2025-04",
     "female": 232,
     "male": 328,
     "total": 560
   },
   {
-    "district_name": "MORBI",
-    "district_code": "673",
+    "district_name": "Bhiwani",
+    "district_code": 59,
     "month": "2025-10",
     "female": 216,
     "male": 326,
     "total": 542
   },
   {
-    "district_name": "NARMADA",
-    "district_code": "452",
+    "district_name": "Nuh",
+    "district_code": 604,
     "month": "2025-04",
     "female": 230,
     "male": 341,
     "total": 571
   },
   {
-    "district_name": "NARMADA",
-    "district_code": "452",
+    "district_name": "Nuh",
+    "district_code": 604,
     "month": "2025-10",
     "female": 201,
     "male": 274,
     "total": 475
   },
   {
-    "district_name": "NAVSARI",
-    "district_code": "453",
+    "district_name": "Rohtak",
+    "district_code": 73,
     "month": "2025-04",
     "female": 233,
     "male": 319,
     "total": 552
   },
   {
-    "district_name": "NAVSARI",
-    "district_code": "453",
+    "district_name": "Rohtak",
+    "district_code": 73,
     "month": "2025-10",
     "female": 72,
     "male": 128,
     "total": 200
   },
   {
-    "district_name": "PANCHMAHALS",
-    "district_code": "454",
-    "month": "2025-04",
-    "female": 919,
-    "male": 1334,
-    "total": 2253
-  },
-  {
-    "district_name": "PANCHMAHALS",
-    "district_code": "454",
-    "month": "2025-10",
-    "female": 586,
-    "male": 772,
-    "total": 1358
-  },
-  {
-    "district_name": "PATAN",
-    "district_code": "455",
-    "month": "2025-04",
-    "female": 308,
-    "male": 419,
-    "total": 727
-  },
-  {
-    "district_name": "PATAN",
-    "district_code": "455",
-    "month": "2025-10",
-    "female": 136,
-    "male": 188,
-    "total": 324
-  },
-  {
-    "district_name": "PORBANDAR",
-    "district_code": "456",
-    "month": "2025-04",
-    "female": 49,
-    "male": 66,
-    "total": 115
-  },
-  {
-    "district_name": "PORBANDAR",
-    "district_code": "456",
-    "month": "2025-10",
-    "female": 33,
-    "male": 44,
-    "total": 77
-  },
-  {
-    "district_name": "RAJKOT",
-    "district_code": "457",
-    "month": "2025-04",
-    "female": 298,
-    "male": 385,
-    "total": 683
-  },
-  {
-    "district_name": "RAJKOT",
-    "district_code": "457",
-    "month": "2025-10",
-    "female": 195,
-    "male": 243,
-    "total": 438
-  },
-  {
-    "district_name": "RAJKOT URBAN",
-    "district_code": "457",
-    "month": "2025-04",
-    "female": 111,
-    "male": 149,
-    "total": 260
-  },
-  {
-    "district_name": "RAJKOT URBAN",
-    "district_code": "457",
-    "month": "2025-10",
-    "female": 66,
-    "male": 89,
-    "total": 155
-  },
-  {
-    "district_name": "SABARKANTHA",
-    "district_code": "458",
-    "month": "2025-04",
-    "female": 994,
-    "male": 1364,
-    "total": 2358
-  },
-  {
-    "district_name": "SABARKANTHA",
-    "district_code": "458",
-    "month": "2025-10",
-    "female": 643,
-    "male": 858,
-    "total": 1501
-  },
-  {
-    "district_name": "SURAT",
-    "district_code": "459",
+    "district_name": "Sonipat",
+    "district_code": 75,
     "month": "2025-04",
     "female": 424,
     "male": 669,
     "total": 1093
   },
   {
-    "district_name": "SURAT",
-    "district_code": "459",
+    "district_name": "Sonipat",
+    "district_code": 75,
     "month": "2025-10",
     "female": 281,
     "male": 332,
     "total": 613
   },
   {
-    "district_name": "SURAT URBAN",
-    "district_code": "459",
+    "district_name": "Sonipat",
+    "district_code": 75,
     "month": "2025-04",
     "female": 408,
     "male": 567,
     "total": 975
   },
   {
-    "district_name": "SURAT URBAN",
-    "district_code": "459",
+    "district_name": "Sonipat",
+    "district_code": 75,
     "month": "2025-10",
     "female": 234,
     "male": 288,
     "total": 522
-  },
-  {
-    "district_name": "SURENDRANAGAR",
-    "district_code": "460",
-    "month": "2025-04",
-    "female": 365,
-    "male": 492,
-    "total": 857
-  },
-  {
-    "district_name": "SURENDRANAGAR",
-    "district_code": "460",
-    "month": "2025-10",
-    "female": 217,
-    "male": 326,
-    "total": 543
-  },
-  {
-    "district_name": "TAPI",
-    "district_code": "641",
-    "month": "2025-04",
-    "female": 230,
-    "male": 314,
-    "total": 544
-  },
-  {
-    "district_name": "TAPI",
-    "district_code": "641",
-    "month": "2025-10",
-    "female": 135,
-    "male": 207,
-    "total": 342
-  },
-  {
-    "district_name": "VADODARA",
-    "district_code": "461",
-    "month": "2025-04",
-    "female": 703,
-    "male": 968,
-    "total": 1671
-  },
-  {
-    "district_name": "VADODARA",
-    "district_code": "461",
-    "month": "2025-10",
-    "female": 405,
-    "male": 567,
-    "total": 972
-  },
-  {
-    "district_name": "VADODARA URBAN",
-    "district_code": "461",
-    "month": "2025-04",
-    "female": 180,
-    "male": 259,
-    "total": 439
-  },
-  {
-    "district_name": "VADODARA URBAN",
-    "district_code": "461",
-    "month": "2025-10",
-    "female": 114,
-    "male": 177,
-    "total": 291
-  },
-  {
-    "district_name": "VALSAD",
-    "district_code": "462",
-    "month": "2025-04",
-    "female": 305,
-    "male": 456,
-    "total": 761
-  },
-  {
-    "district_name": "VALSAD",
-    "district_code": "462",
-    "month": "2025-10",
-    "female": 250,
-    "male": 297,
-    "total": 547
   }
 ]
