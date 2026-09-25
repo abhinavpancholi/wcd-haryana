@@ -9,22 +9,22 @@ export default function Header({ pageSubtitle = 'Viksit Gujarat Vision @2047' })
       {/* Left — Map icon & GRIT Badge */}
       <div className="wcd-header__left">
         <img
-          src="/gujarat_map.png"
+          src="/indiamap.png"
           alt="GRIT Logo"
           style={{ height: 50, width: 'auto', borderRadius: 4, objectFit: 'contain' }}
         />
 
-        <img
+        {/* <img
           src="/gritlogo.jpg"
           alt="GRIT Logo"
           style={{ height: 50, width: 'auto', borderRadius: 4, objectFit: 'contain' }}
-        />
+        /> */}
       </div>
 
       {/* Center — Titles */}
       <div className="wcd-header__title-block">
         <div className="wcd-header__title">
-          Gujarat  Rajya  Institution  For  Transformation
+          Viksit  Rajya  Institution  For  Transformation
         </div>
         <div className="wcd-header__subtitle">
           Women &amp; Child Development Department
@@ -37,7 +37,7 @@ export default function Header({ pageSubtitle = 'Viksit Gujarat Vision @2047' })
       {/* Right — Profile/Institution badge */}
       <div className="wcd-header__profile">
         <img
-          src="/cm_photo.png"
+          src="/vikistrajyalogo.png"
           alt="GRIT Logo"
           style={{ height: 50, width: 'auto', borderRadius: 4, objectFit: 'contain' }}
         />
